@@ -1,0 +1,19 @@
+{
+  "name": "journey",
+  "packageManager": "pnpm@9.9.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "lessons/**",
+    "experiments/**"
+  ],
+  "scripts": {
+    "format": "biome format --write ./lessons ./experiments",
+    "lint": "biome lint --write ./lessons ./experiments",
+    "check": "biome check --write ./lessons ./experiments"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.1"
+  }
+}
