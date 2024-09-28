@@ -54,6 +54,19 @@ importers:
         specifier: ^5.4.5
         version: 5.4.5
 
+  lessons/06:
+    dependencies:
+      three:
+        specifier: ^0.168.0
+        version: 0.168.0
+    devDependencies:
+      '@types/three':
+        specifier: ^0.168.0
+        version: 0.168.0
+      vite:
+        specifier: ^5.4.5
+        version: 5.4.5
+
 packages:
 
   '@biomejs/biome@1.9.1':
