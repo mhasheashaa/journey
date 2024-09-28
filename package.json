@@ -4,14 +4,11 @@
   "engines": {
     "node": ">=20"
   },
-  "workspaces": [
-    "lessons/**",
-    "experiments/**"
-  ],
+  "workspaces": ["lessons/**"],
   "scripts": {
-    "format": "biome format --write ./lessons ./experiments",
-    "lint": "biome lint --write ./lessons ./experiments",
-    "check": "biome check --write ./lessons ./experiments"
+    "format": "biome format --write ./lessons",
+    "lint": "biome lint --write ./lessons",
+    "check": "biome check --write ./lessons"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.1"
